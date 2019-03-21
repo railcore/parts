@@ -1,0 +1,1 @@
+A simple clip for the wiring bundle on the RailCore II, has a slot for a zip tie to insert. I used a 36" zip tie, and just cut the ends off. Inserted it in with my wiring bundle, and it keeps the bundle upright so it can't flop over.
