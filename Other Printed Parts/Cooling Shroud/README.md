@@ -1,6 +1,6 @@
 Railcore V6 Part cooling Duct by Hangtight / James Tongue is licensed under the Creative Commons - Attribution - Non-Commercial license.
-Railcore V6 Part cooling Duct with 3DCPrinting supports remixed by J.Steve White.
-
+Railcore V6 Part cooling Duct V2 version with 3DCPrinting supports remixed by J.Steve White.
+https://www.facebook.com/groups/RailCore/permalink/2262880700664343/
 
 # Summary
 
