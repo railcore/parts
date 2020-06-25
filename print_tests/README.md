@@ -11,9 +11,9 @@ Just a test object to try and balance retraction settings. The round base shows 
 https://www.thingiverse.com/thing:2866393
 
 Print Settings
-Rafts:No
-Supports:No
-Resolution: .1 or .2
-Infill:15%
+* Rafts:No
+* Supports:No
+* Resolution: .1 or .2
+* Infill:15%
 
 ### Ripple tests by MaxPlastix
