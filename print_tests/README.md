@@ -16,3 +16,4 @@ Supports:No
 Resolution: .1 or .2
 Infill:15%
 
+### Ripple tests by MaxPlastix
