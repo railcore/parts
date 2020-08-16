@@ -1,4 +1,5 @@
-RailCoreII 300ZL DXF Files (2019-02-11)
-https://www.kraegar.com/railcoreii
+RailCoreII 300ZL DXF Files (2020-08-16)
 
-Converted From: http://a360.co/2D5OryV
+All DXFs are made from outside of the printer volume facing inward. 
+
+This is important on the bottom and right panels; the others are symmetrical.
