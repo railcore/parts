@@ -1,1 +1,3 @@
-# A repo of the printed parts for the RailCore 2
+# Printed Parts
+
+List of auxillary or outdated parts for the RailCore 2
