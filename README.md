@@ -7,7 +7,7 @@ RailCore II is a Core-XY based Reprap 3D printer designed by J. Steve White & To
 
 ## Top-Level Specs
 * CoreXY Motion System
-* 300x300x300 (ZL) or 300x300x300 (ZLT)build volume.
+* 300x300x300 (ZL) or 300x300x300 (ZLT) build volume.
 * kinematically coupled bed plate (optionally)
 * autotramming with 3-point bed-leveling
 * ~$1700 for a single unit, including hotend. See the [BOM][bom] for the part breakdown
@@ -31,7 +31,7 @@ The best way to get started is to thumb through the [**Assembly Instructions**](
 
 ## Support
 
-Have questions? Building your own Jubilee? **[Join the Discord!][discord]**
+Have questions? Building your own Railcore? **[Join the Discord!][discord]**
 
 ## Contributing
 
