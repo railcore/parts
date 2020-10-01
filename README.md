@@ -36,6 +36,7 @@ The best way to get started is to thumb through the [**Assembly Instructions**](
 ## Support
 
 Have questions? Building your own Railcore? **[Join the Discord!][discord]**
+Lots more information available [here](https://railcore.org)
 
 ## Contributing
 
