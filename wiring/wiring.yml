@@ -1,0 +1,370 @@
+connectors:
+  X1:
+    pinout: [SSR3]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: SSR3"
+  X2:
+    pinout: [SSR4]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: SSR4"
+  F_10_1: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Ferrule, crimp
+    notes: Duet Bed+
+  F_10_2: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Ferrule, crimp
+    notes: Duet Bed-
+    
+  X3:
+    pinout: [PSU 24v-]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: PSU 24v-"
+  F_10_3: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Ferrule, crimp
+    notes: Duet Vin-
+  F_10_4: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Ferrule, crimp
+    notes: Duet Vin-
+
+    
+  X4:
+    pinout: [Chassis GND]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: Chassis GND"
+  F_10_5: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO Ground Block
+
+  X5:
+    pinout: [PSU 24v+]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: PSU 24v+"
+  F_10_6: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Ferrule, crimp
+    notes: Duet Vin+
+
+  X6:
+    pinout: [PSU 24v+]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: PSU 24v+"
+  F_10_7: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Ferrule, crimp
+    notes: Duex Vin+
+
+  X7:
+    pinout: [SSR1]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: SSR1"
+  F_10_8: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Hot Block
+
+  X8:
+    pinout: [PSU AC/L]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: PSU AC/L"
+  F_10_9: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Hot Block
+    
+  X9:
+    pinout: [Power Inlet Hot]
+    type: 0.25" Quick Disconnect
+    subtype: insulated
+    notes: "Label: Power Inlet Hot"
+  F_10_10: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Hot Block
+    
+  X10:
+    pinout: [PSU AC/N]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: PSU AC/N"    
+  F_10_11: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Neutral Block
+    
+  X11:
+    pinout: [Power Inlet Neutral]
+    type: 0.25" Quick Disconnect
+    subtype: insulated
+    notes: "Label: Power Inlet Neutral"
+  F_10_12: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Neutral Block
+
+  X12:
+    pinout: [PSU GND]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: PSU GND"
+  F_10_13: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Ground Block
+    
+  X13:
+    pinout: [Power Inlet Ground]
+    type: 0.25" Quick Disconnect
+    subtype: insulated
+    notes: "Label: Power Inlet Ground"
+  F_10_14: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Ground Block
+    
+  X14:
+    type: Molex KK 254
+    subtype: female
+    pinout: [SIG, n/a, GND]
+    notes: "Label: X-endstop"
+  X15:
+    pinout: [COM, NO, NC]
+    type: OMRON D2F-01F 
+    subtype: Microswitch
+
+  X16:
+    type: Molex KK 254
+    subtype: female
+    pinout: [GND, n/a, SIG]
+    notes: "Label: Y-endstop"
+  X17:
+    type: Molex KK 254
+    subtype: female
+    pinout: [FAN-, V_Fan]
+    notes: "Label: Part Cooling Fan"
+  X18:
+    type: Molex 70107-0003
+    subtype: male
+    pinout: [FAN-, V_FAN, GND, SIG]
+    notes: "Label: Fan&Endstop"
+
+  X19:
+    pinout: [NC, NO, COM]
+    type: OMRON D2F-01F 
+    subtype: Microswitch
+  X20:
+    type: Delta BFB0524HH Fan
+    pinout: [Fan-, FAN+]
+  X21:
+    type: Molex 50-57-9404
+    subtype: female
+    pinout: [FAN-, V_FAN, GND, SIG]
+    notes: "Label: Fan&Endstop"
+
+  X22:
+    pinout: [PSU GND]
+    type: Ring Terminal
+    subtype: insulated
+    notes: "Label: Bed Ground"
+  F_10_15: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+    notes: WAGO AC Ground Block
+
+
+cables:
+  W1:
+    category: bundle # bundle
+    length: 0.5
+    gauge: 16 AWG
+    colors: [RD, BK] # custom colors, wirecount is implicit
+  W2:
+    category: bundle # bundle
+    length: 0.3
+    gauge: 16 AWG
+    colors: [BK] # custom colors, wirecount is implicit
+  W3:
+    category: bundle # bundle
+    length: 0.2
+    gauge: 16 AWG
+    colors: [BK] # custom colors, wirecount is implicit
+  W4:    
+    category: bundle # bundle
+    length: 0.6
+    gauge: 16 AWG
+    colors: [GN] # custom colors, wirecount is implicit
+  W5:
+    category: bundle # bundle
+    length: 0.22
+    gauge: 16 AWG
+    colors: [RD] # custom colors, wirecount is implicit
+  W6:
+    category: bundle # bundle
+    length: 0.17
+    gauge: 16 AWG
+    colors: [RD] # custom colors, wirecount is implicit
+  W7:
+    category: bundle # bundle
+    length: 0.3
+    gauge: 16 AWG
+    colors: [BK] # custom colors, wirecount is implicit
+  W8:
+    category: bundle # bundle
+    length: 0.1
+    gauge: 16 AWG
+    colors: [BK] # custom colors, wirecount is implicit
+  W9:
+    category: bundle # bundle
+    length: 0.1
+    gauge: 16 AWG
+    colors: [BK] # custom colors, wirecount is implicit
+  W10:
+    category: bundle # bundle
+    length: 0.1
+    gauge: 16 AWG
+    colors: [WH] # custom colors, wirecount is implicit
+  W11:
+    category: bundle # bundle
+    length: 0.1
+    gauge: 16 AWG
+    colors: [WH] # custom colors, wirecount is implicit
+  W12:
+    category: bundle # bundle
+    length: 0.1
+    gauge: 16 AWG
+    colors: [GN] # custom colors, wirecount is implicit
+  W13:
+    category: bundle # bundle
+    length: 0.1
+    gauge: 16 AWG
+    colors: [GN] # custom colors, wirecount is implicit
+  W14:
+    category: bundle # bundle
+    length: 1
+    gauge: 24 AWG
+    colors: [BK, GN] # custom colors, wirecount is implicit
+    notes: "Braided nylon sleeving, heatshrink ends   "
+  W15:
+    category: bundle # bundle
+    length: 1
+    gauge: 24 AWG
+    colors: [BK, RD, BK, GN] # custom colors, wirecount is implicit
+  W16:
+    category: bundle # bundle
+    length: 0.1
+    gauge: 24 AWG
+    colors: [BK, RD, GN, BK] # custom colors, wirecount is implicit
+  W17:
+    category: bundle # bundle
+    length: 1.25
+    gauge: 16 AWG
+    colors: [GN] # custom colors, wirecount is implicit
+
+
+connections:
+  - # attach ferrules
+    - X1: 1
+    - W1: 1
+    - F_10_1: 1
+  - # attach ferrules
+    - X2: 1
+    - W1: 2
+    - F_10_2: 1
+
+  - # attach ferrules
+    - X3: 1
+    - W2: 1
+    - F_10_3: 1
+  - # attach ferrules
+    - F_10_4: 1
+    - W3: 1
+    - F_10_3: 1
+
+  - # attach ferrules
+    - X4: 1
+    - W4: 1
+    - F_10_5: 1
+    
+  - # attach ferrules
+    - X5: 1
+    - W5: 1
+    - F_10_6: 1
+    
+  - # attach ferrules
+    - X6: 1
+    - W6: 1
+    - F_10_7: 1
+    
+  - # attach ferrules
+    - X7: 1
+    - W7: 1
+    - F_10_8: 1
+    
+  - # attach ferrules
+    - X8: 1
+    - W8: 1
+    - F_10_9: 1
+    
+  - # attach ferrules
+    - X9: 1
+    - W9: 1
+    - F_10_10: 1
+    
+  - # attach ferrules
+    - X10: 1
+    - W10: 1
+    - F_10_11: 1
+    
+  - # attach ferrules
+    - X11: 1
+    - W11: 1
+    - F_10_12: 1
+    
+  - # attach ferrules
+    - X12: 1
+    - W12: 1
+    - F_10_13: 1
+    
+  - # attach ferrules
+    - X13: 1
+    - W13: 1
+    - F_10_14: 1
+    
+  - # attach ferrules
+    - X15: [1,3]
+    - W14: [1,2]
+    - X14: [1,3]
+    
+  - # attach ferrules
+    - X17: [1,2]
+    - W15: [1,2]
+    - X18: [1,2]
+  - # attach ferrules
+    - X16: [1,3]
+    - W15: [3,4]
+    - X18: [4,3]
+    
+  - # attach ferrules
+    - X20: [1,2]
+    - W16: [1,2]
+    - X21: [1,2]
+  - # attach ferrules
+    - X19: [1,3]
+    - W16: [3,4]
+    - X21: [3,4]
+    
+  - # attach ferrules
+    - X22: 1
+    - W17: 1
+    - F_10_15: 1

@@ -23,12 +23,28 @@ The best way to get started is to thumb through the [**Assembly Instructions**](
 * https://hightemp3d.com (EU-Based, kits may not be comprised of the parts on the [BOM][bom])
 
 ## Repository Contents
+
+* **all_printed_parts-commercial_kit**  - All the printed parts from the commercial released kit
+* **all_printed_parts-original_project**  - All the printed parts from the original project as released.
+* **auxillary**  - List of auxillary, untested or outdated parts for the RailCore II
+ * **Resources** contains the font used for the Railcore II 300ZL/ZLT engraving on the panels
+
+* **bed**  - bed and mag-bed steel sheet
+* **doors** 
+* **electronics_box** 
+* **halo** 
+* **parts-self_source**  - contains all the parts that need to be printed to produce a Railcore. See [BOM][bom].
+* **sidepanels** 
+* **top_enclosure** 
+
+
+
+
 * **Aluminum** contains all parts recommended to produce out of Aluminum. The halo and Y-plate are optional, the motor mount and idler mounts are recommended to be made from aluminum, but machined and finished versions are available, see [BOM][bom].
 * **Electronics Box** contains DXF files for cutting the Electronics Box. 6mm HDPE is recommended, but other materials are possible.
 * **print_tests** contains parts that can be used for testing/tuning a Railcore
 * **Printed_Parts** contains all the parts that need to be printed to produce a Railcore. Some, like Z-Brackets and Z-Yokes, are available in aluminum. See [BOM][bom].
-* **Resources** contains the font used for the Railcore II 300ZL/ZLT engraving on the panels
-* **Upgrade_or_Crossgrade_Parts** contains parts that can be used optionally, for instance doors and a longer electronics box (ZLT only)
+ 
 * **wiring.png** contains details on all the custom wiring that is used in a Railcore.
 * **ZL_Panels** contains DXF files for cutting the side panels. 6mm HDPE is recommended, but other materials are possible.
 * **ZLT_Panels** contains DXF files for cutting the side panels. 6mm HDPE is recommended, but other materials are possible.
