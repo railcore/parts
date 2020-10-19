@@ -1,3 +1,0 @@
-Sources for RailcoreII build chamber cable management (for use with halo)
-
-RailcoreII build chamber cable management (http://www.thingiverse.com/thing:3229465)
