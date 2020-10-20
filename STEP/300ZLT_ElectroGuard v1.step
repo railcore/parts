@@ -9,8 +9,9 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'D:/dursl/Downloads/300ZLT ElectroGuard v1.step',
-/* time_stamp */ '2020-10-13T14:05:46+01:00',
+/* name */ 
+'D:/dursl/Documents/GitHub/parts/STEP/300ZLT ElectroGuard v1.step',
+/* time_stamp */ '2020-10-20T11:53:37+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
