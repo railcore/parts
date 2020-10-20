@@ -1,6 +1,6 @@
 # Upgrade or Crossgrade Parts
 
-This repo is for parts that aren't necessary for a base RailCore functionality.
+This repo is for official parts that aren't necessary for a base RailCore functionality.
 
 They may add functionality or improve appearance or provide different functionality from the base RailCore design, but are not necessary in any sense for building a RailCore. 
 
