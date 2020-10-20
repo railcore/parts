@@ -32,6 +32,7 @@ The best way to get started is to thumb through the [**Assembly Instructions**](
  * **jigs** - contains parts that can be used for alignment or assembly.
  * **print_tests** - contains parts that can be used for testing/tuning a Railcore
  * **outdated parts** - contains parts that are no longer used.
+* upgrade_or_crossgrade_parts - for official parts that aren't necessary for a base RailCore functionality. (doors or STL's for commercial parts authorised by RailCore Labs)
 * **wiring** - contains details on all the custom wiring that is used in a Railcore in WireViz format.
 
 The halo and Y-plate are optional, the motor mount and idler mounts are recommended to be made from aluminum, but machined and finished versions are available, see [BOM][bom].
