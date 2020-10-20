@@ -28,11 +28,11 @@ The best way to get started is to thumb through the [**Assembly Instructions**](
 * **STEP**  - STEP files for the RailCore II 300ZL & ZLT. All printed parts, milled and cut parts.
 * **STL**  - contains STL all the parts that need to be printed to produce a Railcore. Some, like Z-Brackets and Z-Yokes, are available in aluminum. See [BOM][bom].
 * **auxillary**  - List of auxillary, untested or outdated parts for the RailCore II
- * **font** contains font used for the Railcore logo
- * **jigs** contains parts that can be used for alignment or assembly.
- * **print_tests** contains parts that can be used for testing/tuning a Railcore
- * **outdated parts** contains parts that are no longer used.
-* **wiring.png** contains details on all the custom wiring that is used in a Railcore.
+ * **font** - contains the font used for the Railcore II 300ZL/ZLT engraving on the panels.
+ * **jigs** - contains parts that can be used for alignment or assembly.
+ * **print_tests** - contains parts that can be used for testing/tuning a Railcore
+ * **outdated parts** - contains parts that are no longer used.
+* **wiring** - contains details on all the custom wiring that is used in a Railcore in WireViz format.
 
 The halo and Y-plate are optional, the motor mount and idler mounts are recommended to be made from aluminum, but machined and finished versions are available, see [BOM][bom].
 
