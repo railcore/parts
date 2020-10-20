@@ -28,10 +28,10 @@ The best way to get started is to thumb through the [**Assembly Instructions**](
 * **STEP**  - STEP files for the RailCore II 300ZL & ZLT. All printed parts, milled and cut parts.
 * **STL**  - contains STL all the parts that need to be printed to produce a Railcore. Some, like Z-Brackets and Z-Yokes, are available in aluminum. See [BOM][bom].
 * **auxillary**  - List of auxillary, untested or outdated parts for the RailCore II
- * **font** - contains the font used for the Railcore II 300ZL/ZLT engraving on the panels.
- * **jigs** - contains parts that can be used for alignment or assembly.
- * **print_tests** - contains parts that can be used for testing/tuning a Railcore
- * **outdated parts** - contains parts that are no longer used.
+  * **font** - contains the font used for the Railcore II 300ZL/ZLT engraving on the panels.
+  * **jigs** - contains parts that can be used for alignment or assembly.
+  * **print_tests** - contains parts that can be used for testing/tuning a Railcore
+  * **outdated parts** - contains parts that are no longer used.
 * upgrade_or_crossgrade_parts - for official parts that aren't necessary for a base RailCore functionality. (doors or STL's for commercial parts authorised by RailCore Labs)
 * **wiring** - contains details on all the custom wiring that is used in a Railcore in WireViz format.
 
