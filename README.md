@@ -36,6 +36,7 @@ The best way to get started is to thumb through the [**Assembly Instructions**](
 * **wiring** - contains details on all the custom wiring that is used in a Railcore in WireViz format.
 
 The halo and Y-plate are optional, the motor mount and idler mounts are recommended to be made from aluminum, but machined and finished versions are available, see [BOM][bom].
+More printed parts are available at the [RailCore Thingiverse collection](https://www.thingiverse.com/railcore/collections/300zl-zlt)
 
 ## Support
 
@@ -52,6 +53,7 @@ Railcore is meant to be extended by the community. If you are interested in cont
 ### Open Source
 Railcore is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License][cc-by] (CC BY-SA 3.0).
 [![CC BY 3.0][cc-by-image]][cc-by]
+You can modify / distribute these files, and as long as you attribute to RailCore Labs e.g. "Original design by RailCore Labs"
 
 [bom]: https://docs.google.com/spreadsheets/d/1sxKl6h23SXfuNM7hNiX35rIrpISw8AruEEcNl2Fvibk/edit?usp=sharing
 [cc-by]: https://creativecommons.org/licenses/by-sa/3.0/
