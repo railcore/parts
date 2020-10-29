@@ -1,0 +1,66 @@
+connectors:
+  X1:
+    type: NTC 100K thermistor, 3950K
+    subtype: female
+    pinout: [Thermistor, Thermistor]
+  X2:
+    type: Dupont 2-pin female
+    subtype: female
+    pinout: [Thermistor, Thermistor]
+    notes: "Label: Bed Thermistor"  
+
+    
+  X3:
+    type: 750w Silicone Heater
+    pinout: [Heater, Heater]
+    
+  X4:
+    pinout: [SSR]
+    type: Ring Terminal
+    subtype: insulated
+
+  F_10_5: # manually define a ferrule (with unique designator)
+    category: ferrule
+    type: Stripped Wire, 10mm
+
+
+
+
+cables:
+  W1:
+    category: bundle # bundle
+    length: 1.0
+    gauge: 24 AWG
+    colors: [RD, RD] # custom colors, wirecount is implicit
+  W2:
+    category: bundle # bundle
+    length: 1.0
+    gauge: 16 AWG
+    colors: [WH] # custom colors, wirecount is implicit
+  W3:
+    category: bundle # bundle
+    length: 1.24
+    gauge: 16 AWG
+    colors: [WH] # custom colors, wirecount is implicit
+  W17:
+    category: bundle # bundle
+    length: 1.25
+    gauge: 16 AWG
+    colors: [GN] # custom colors, wirecount is implicit
+
+
+
+connections:
+  - # attach ferrules
+    - X1: [1,2]
+    - W1: [1,2]
+    - X2: [1,2]
+
+  - # attach ferrules
+    - X3: [1]
+    - W2: [1]
+    - X4: 1
+  - # attach ferrules
+    - X3: [2]
+    - W3: [1]
+    - F_10_5: 1
