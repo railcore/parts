@@ -19,7 +19,6 @@ RailCore® II is a Core-XY based Reprap 3D printer designed by J. Steve White & 
 The best way to get started is to thumb through the [**Assembly Instructions**](https://railcore.dozuki.com/c/RailCore_II) and [**Bill of Materials**][bom] first. Then, your options are to self-source using the [BOM][bom], or purchase a kit. Kit options:
 
 * https://www.filastruder.com/collections/railcore (US-Based, kits are comprised of exactly the parts on the [BOM][bom])
-* https://www.printedsolid.com/collections/railcore (US-Based, kits may not be comprised of the parts on the [BOM][bom])
 * https://hightemp3d.com (EU-Based, kits may not be comprised of the parts on the [BOM][bom])
 
 ## Repository Contents
