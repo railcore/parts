@@ -1,7 +1,7 @@
 Railcore II 300ZL/ZLT
 =======
 
-RailCore® II is a Core-XY based Reprap 3D printer designed by J. Steve White & Tony Akens under the CC-Attribution Only license.
+RailCore® II is a Core-XY based Reprap 3D printer designed by J. Steve White & Tony Akens under the CC-Attribution Only license. Please refer to the attribution file for other contributions.
 
 ![Railcore](RCII300ZL.png)
 
