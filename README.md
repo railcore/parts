@@ -1,7 +1,7 @@
 Railcore II 300ZL/ZLT
 =======
 
-RailCore® II is a Core-XY based Reprap 3D printer designed by J. Steve White & Tony Akens under the CC-Attribution Only license. Please refer to the attribution file for other contributions.
+RailCore® II is a Core-XY based Reprap 3D printer designed by J. Steve White & Tony Akens and published under the [CC BY-SA 4.0][cc-by-sa] license. Please refer to the attribution file for other contributions.
 
 ![Railcore](RCII300ZL.png)
 
@@ -51,12 +51,14 @@ Railcore is meant to be extended by the community. If you are interested in cont
 
 ### Open Source
 The name Railcore is a registered trademark of RailCore Labs, LLC. All Rights reserved.
-Railcore is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License][cc-by] (CC BY-SA 3.0).
-[![CC BY 3.0][cc-by-image]][cc-by]
-You can modify / distribute these files, and as long as you attribute to RailCore Labs e.g. "Original design by RailCore Labs"
+Railcore is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa] (CC BY-SA 4.0).
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+You can modify and distribute these files as long as you attribute RailCore Labs (e.g. "Original design by RailCore Labs") and share your changes under the same license.
+
+Copies obtained before this change stay available under the license they were published with (the old LICENSE file said CC BY 3.0, this README said CC BY-SA 3.0).
 
 [bom]: https://docs.google.com/spreadsheets/d/1sxKl6h23SXfuNM7hNiX35rIrpISw8AruEEcNl2Fvibk/edit?usp=sharing
-[cc-by]: https://creativecommons.org/licenses/by-sa/3.0/
-[cc-by-image]: https://i.creativecommons.org/l/by-sa/3.0/88x31.png
+[cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [discord]: https://discord.gg/Sy569Hq
 [wiki]: https://railcore.org
